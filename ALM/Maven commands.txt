@@ -1,0 +1,28 @@
+Download and install :-
+ct-share -> apaache -> maven -> 3.6 (copy and paste on local machine)
+set system variable MAVEN_HOME upto root dir 
+and then set path %MAVEN_HOME%\bin
+
+
+
+
+
+
+
+Multi-Module:-
+Generate Parent project - mvn archetype:generate -DgroupId=com.cybage.ALM -DartifactId=parent-project
+
+Generate sub-module - mvn archetype:generate -DgroupId=com.cybage.ALM  -DartifactId=core
+                      mvn archetype:generate -DgroupId=com.cybage.ALM  -DartifactId=service
+                      mvn archetype:generate -DgroupId=com.cybage.ALM  -DartifactId=webapp
+
+ 
+
+
+
+mvn archetype:generate -DgroupId=com.companyname.bank -DartifactId=consumerBanking -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate
+
+
